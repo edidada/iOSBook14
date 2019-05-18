@@ -226,6 +226,7 @@
 				TargetAttributes = {
 					EA41C64A1C35193D00C93B3E = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5N8B8657MU;
 					};
 				};
 			};
@@ -396,9 +397,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5N8B8657MU;
 				INFOPLIST_FILE = MyNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.MyNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdidada.MyNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -407,9 +409,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5N8B8657MU;
 				INFOPLIST_FILE = MyNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.MyNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdidada.MyNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

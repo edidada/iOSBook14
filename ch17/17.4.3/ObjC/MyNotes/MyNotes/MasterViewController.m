@@ -37,7 +37,8 @@
 
 - (void)startRequest {
 
-    NSString *strURL = [[NSString alloc] initWithFormat:@"http://www.51work6.com/service/mynotes/WebService.php?email=%@&type=%@&action=%@", @"<你的51work6.com用户邮箱>", @"JSON", @"query"];
+    NSLog(@"please note!");
+    NSString *strURL = [[NSString alloc] initWithFormat:@"http://www.51work6.com/service/mynotes/WebService.php?email=%@&type=%@&action=%@", @"wiseism@126.com", @"JSON", @"query"];
 
     strURL = [strURL stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
 
